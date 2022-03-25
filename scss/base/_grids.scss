@@ -1,0 +1,19 @@
+.index{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 110px auto auto 100px;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-template-areas: 
+	"header"
+	"presentacion"
+	"infoDeLocal"
+	"footer"
+	;
+	width: 99%;
+	height: 100%;
+}
+.header{grid-area: header;}
+.presentacion{grid-area: presentacion;}
+.infoDeLocal{grid-area: infoDeLocal;}
+.footer{grid-area: footer;}

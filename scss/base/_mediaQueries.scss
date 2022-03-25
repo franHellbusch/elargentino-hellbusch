@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	body{
 			/* modificaciones del header */
 			.header{
@@ -41,33 +41,67 @@
 			}
 		}
 		// modificaciones del main index
-		/* modificaciones de la seccion de presentacion */
-		.index
-			.mainIndex{
-				.presentacion{
-					padding-top: 2rem;
-					.presentacion__texto{
-						font-size: 15px;
-					}
-				}
-				/* modificaciones de la seccion de infoDeLocal */
-				.infoDeLocal{
-					padding-top: 2rem;
-					padding-bottom: 1rem;
-					.infoDeLocal__tittle{
-						font-size: 30px;
-					}
-					.infoDeLocal__ubicacion{
-						padding-top: 2rem;
-						height: 100px;
-					}
-					.infoDeLocal__video{
-						padding-top: 1rem;
-						width: 160px;
-						height: 130px;
-					}
-				}
-			}
+		.index{
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 70px auto auto 60px;
+			grid-auto-flow: row;
+			grid-auto-columns: 1fr;
+			grid-template-areas: 
+			"header"
+			"presentacion"
+			"infoDeLocal"
+			"footer"
+			;
+			width: 98%;
+			height: 99%;
+		}
+		/* seccion de presentacion */
+		.presentacion{
+			background-image: url(../assets/img/madera-main.jpg);
+			display: flex;
+			flex-direction: column;
+			padding: 1rem;
+		}
+		.presentacion__img--modificaciones{
+			width: 300px;
+			height: auto;
+			border: 1px solid black;
+			margin-bottom: 10px;
+		}
+		.presentacion__texto{
+			font-size: 15px;
+			width: 90%;
+			height: auto;
+			color: whitesmoke;
+			align-content: justify;
+			display: flex;
+			padding-left: 15px;
+		}
+		/* seccion info de local */
+		.infoDeLocal{
+			background-image: url(../assets/img/madera-main.jpg);
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-content: center;
+			padding-bottom: 1rem;
+		}
+		.infoDeLocal__tittle{
+			font-size: 25px;
+			color: burlywood;
+			display: inline;
+		}
+		.infoDeLocal__ubicacion{
+			padding-top: 2rem;
+			width: 85px;
+			height: 70px;
+		}
+		.infoDeLocal__video{
+			width: 160px;
+			height: 95px;
+			padding-top: 27px;
+		}
 		/* modificaciones de la seccion de comienzo */
 		.mainNosotros{
 			.comienzo{

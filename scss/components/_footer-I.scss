@@ -1,0 +1,23 @@
+/* modificaciones del footer */
+.footer{
+	background-image: url(../assets/img/madera.jpg);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid black;
+	font-family: 'Montserrat', sans-serif;
+	.footer__tittle{
+		font-size: 25px;
+		padding:{
+			left: 1rem;
+			top: 0px;
+		}
+	}
+	.footer__img--modificaciones{
+		width: 75px;
+		padding:{
+			right: 1rem;
+			top: 10px;
+		}
+	}
+}
