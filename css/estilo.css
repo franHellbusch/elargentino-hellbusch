@@ -1,0 +1,539 @@
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #B99558;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FFF0BC'/%3E%3Cstop offset='1' stop-color='%23B99558'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23dcc38a'/%3E%3Cstop offset='1' stop-color='%23B99558'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg %3E%3Cg transform=''%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform=''%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0.12' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  border-top: 2px solid black; }
+  .footer .footer__tittle {
+    font-size: 30px;
+    padding-left: 1rem;
+    padding-top: 1.5rem; }
+  .footer .footer__img--modificaciones {
+    width: 75px;
+    margin: 5px 1rem; }
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  background-color: #483208;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(181,800,397)'%3E%3Cstop offset='0' stop-color='%23483208'/%3E%3Cstop offset='1' stop-color='%235A4309'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='393' height='327.5' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.35'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-size: cover;
+  border-bottom: 2px solid black; }
+  .header .header__tittle {
+    color: brown;
+    padding-left: 1rem;
+    padding-top: 2rem; }
+    .header .header__tittle:hover {
+      color: white; }
+  .header .header__logo {
+    width: 125px;
+    margin: 10px;
+    border: 2px solid black; }
+  .header .navbar {
+    height: 30px;
+    margin-top: 4rem;
+    background-color: #EB7E09;
+    border: 1px solid black; }
+    .header .navbar .nav-item {
+      padding: 0px 1rem; }
+
+.mainContacto {
+  background-color: #534618;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23534618' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23675119' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%237c5c1b' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%2391671b' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23a6721c' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23BC7E1C' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-family: "Montserrat", sans-serif; }
+  .mainContacto .contacto__tittle {
+    font-size: 45px;
+    color: whitesmoke;
+    padding-bottom: 1rem; }
+  .mainContacto .form .form__name {
+    font-size: 30px;
+    color: whitesmoke;
+    padding-left: 8rem; }
+  .mainContacto .form .form__nombreApellido {
+    padding-left: 8rem; }
+    .mainContacto .form .form__nombreApellido .form__name--modificaciones, .mainContacto .form .form__nombreApellido .form__apellido--modificaciones {
+      font-size: 20px; }
+  .mainContacto .form .form__textarea {
+    font-size: 30px;
+    color: whitesmoke;
+    padding-left: 8rem; }
+  .mainContacto .form .form__textarea--modificaciones {
+    font-size: 20px;
+    padding-left: 8rem;
+    width: 100%; }
+  .mainContacto .form .form__enviarBorrar {
+    padding-left: 8rem; }
+    .mainContacto .form .form__enviarBorrar .form__enviar, .mainContacto .form .form__enviarBorrar .form__borrar {
+      font-size: 20px; }
+  .mainContacto .contactanos__numero {
+    font-size: 25px;
+    color: black;
+    background-color: brown;
+    border: 2px solid black;
+    margin-left: 8rem; }
+  .mainContacto .contactanos {
+    padding-top: 1rem; }
+    .mainContacto .contactanos .contactanos__tittle--position {
+      padding-left: 8rem; }
+      .mainContacto .contactanos .contactanos__tittle--position .contactanos__tittle {
+        font-size: 30px;
+        color: black; }
+    .mainContacto .contactanos .contactanos__texto--position {
+      padding-left: 8rem; }
+      .mainContacto .contactanos .contactanos__texto--position .contactanos__texto {
+        font-size: 25px;
+        color: whitesmoke; }
+  .mainContacto .contactanos__comenta {
+    padding-left: 8rem;
+    padding-top: 1rem; }
+    .mainContacto .contactanos__comenta .comenta__tittle {
+      font-size: 30px;
+      color: black; }
+    .mainContacto .contactanos__comenta .comenta__img {
+      width: 100px; }
+
+.mainNosotros {
+  background-color: #DFAC24;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3CradialGradient id='a' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23FFEAC5'/%3E%3Cstop offset='1' stop-color='%23DFAC24'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='750' x2='1550' y2='750'%3E%3Cstop offset='0' stop-color='%23efcb75'/%3E%3Cstop offset='1' stop-color='%23DFAC24'/%3E%3C/linearGradient%3E%3Cpath id='s' fill='url(%23b)' d='M1549.2 51.6c-5.4 99.1-20.2 197.6-44.2 293.6c-24.1 96-57.4 189.4-99.3 278.6c-41.9 89.2-92.4 174.1-150.3 253.3c-58 79.2-123.4 152.6-195.1 219c-71.7 66.4-149.6 125.8-232.2 177.2c-82.7 51.4-170.1 94.7-260.7 129.1c-90.6 34.4-184.4 60-279.5 76.3C192.6 1495 96.1 1502 0 1500c96.1-2.1 191.8-13.3 285.4-33.6c93.6-20.2 185-49.5 272.5-87.2c87.6-37.7 171.3-83.8 249.6-137.3c78.4-53.5 151.5-114.5 217.9-181.7c66.5-67.2 126.4-140.7 178.6-218.9c52.3-78.3 96.9-161.4 133-247.9c36.1-86.5 63.8-176.2 82.6-267.6c18.8-91.4 28.6-184.4 29.6-277.4c0.3-27.6 23.2-48.7 50.8-48.4s49.5 21.8 49.2 49.5c0 0.7 0 1.3-0.1 2L1549.2 51.6z'/%3E%3Cg id='g'%3E%3Cuse href='%23s' transform='scale(0.12) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.2) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.25) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(0.3) rotate(-20)'/%3E%3Cuse href='%23s' transform='scale(0.4) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(0.5) rotate(20)'/%3E%3Cuse href='%23s' transform='scale(0.6) rotate(60)'/%3E%3Cuse href='%23s' transform='scale(0.7) rotate(10)'/%3E%3Cuse href='%23s' transform='scale(0.835) rotate(-40)'/%3E%3Cuse href='%23s' transform='scale(0.9) rotate(40)'/%3E%3Cuse href='%23s' transform='scale(1.05) rotate(25)'/%3E%3Cuse href='%23s' transform='scale(1.2) rotate(8)'/%3E%3Cuse href='%23s' transform='scale(1.333) rotate(-60)'/%3E%3Cuse href='%23s' transform='scale(1.45) rotate(-30)'/%3E%3Cuse href='%23s' transform='scale(1.6) rotate(10)'/%3E%3C/g%3E%3C/defs%3E%3Cg transform='rotate(0 0 0)'%3E%3Cg transform='rotate(0 0 0)'%3E%3Ccircle fill='url(%23a)' r='3000'/%3E%3Cg opacity='0.5'%3E%3Ccircle fill='url(%23a)' r='2000'/%3E%3Ccircle fill='url(%23a)' r='1800'/%3E%3Ccircle fill='url(%23a)' r='1700'/%3E%3Ccircle fill='url(%23a)' r='1651'/%3E%3Ccircle fill='url(%23a)' r='1450'/%3E%3Ccircle fill='url(%23a)' r='1250'/%3E%3Ccircle fill='url(%23a)' r='1175'/%3E%3Ccircle fill='url(%23a)' r='900'/%3E%3Ccircle fill='url(%23a)' r='750'/%3E%3Ccircle fill='url(%23a)' r='500'/%3E%3Ccircle fill='url(%23a)' r='380'/%3E%3Ccircle fill='url(%23a)' r='250'/%3E%3C/g%3E%3Cg transform='rotate(0 0 0)'%3E%3Cuse href='%23g' transform='rotate(10)'/%3E%3Cuse href='%23g' transform='rotate(120)'/%3E%3Cuse href='%23g' transform='rotate(240)'/%3E%3C/g%3E%3Ccircle fill-opacity='0' fill='url(%23a)' r='3000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  /* modificaciones de la seccion de comienzo */
+  /* modificaciones de las seccion de personal */ }
+  .mainNosotros .comienzo {
+    padding-top: 3rem;
+    padding-bottom: 5rem; }
+    .mainNosotros .comienzo .comienzo__tittle {
+      font-size: 45px;
+      color: black;
+      padding-bottom: 1rem; }
+    .mainNosotros .comienzo .comienzo__img .comienzo__img--modificaciones {
+      border: 2px double black;
+      padding: 0px;
+      width: 90%; }
+    .mainNosotros .comienzo .comienzo__texto {
+      font-size: 22px;
+      color: brown;
+      width: 85%;
+      background-color: whitesmoke;
+      background-size: cover;
+      border: 2px double black;
+      padding: 2rem;
+      margin-top: 10px; }
+  .mainNosotros .personal {
+    padding-bottom: 3rem; }
+    .mainNosotros .personal .personal__tittle {
+      font-size: 40px;
+      color: black;
+      padding-bottom: 2rem; }
+    .mainNosotros .personal .personal__cards {
+      width: 90%; }
+
+/* modificaciones del mainMenu */
+.mainMenu {
+  background-color: #EDA73A;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='418' height='418' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23D09F3A' stroke-width='2.4'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2396711C'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem 0px;
+  /* seccion de comidas */
+  /* seccion de guarniciones */
+  /* seccion de carnes */
+  /* seccion de pastas */
+  /* seccion de postres */
+  /* seccion de bebidas y tragos */ }
+  .mainMenu .menu__tittle {
+    font-size: 30px;
+    color: whitesmoke;
+    padding-bottom: 2rem; }
+  .mainMenu #guarniciones, .mainMenu #carnes, .mainMenu #pastas, .mainMenu #postres, .mainMenu #bebidasYTragos {
+    background-image: url(../assets/img/carbon.jpg);
+    border: 1px solid white;
+    width: 90%;
+    margin: 1rem 0px; }
+  .mainMenu .guarniciones__tittle, .mainMenu .carnes__tittle, .mainMenu .pastas__tittle, .mainMenu .postres__tittle, .mainMenu .bebidasYTragos__tittle {
+    font-size: 30px;
+    color: ghostwhite;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0px;
+    display: inline;
+    padding: 0px 10px; }
+  .mainMenu .guarniciones__subtittle, .mainMenu .carnes__subtittle, .mainMenu .pastas__subtittle, .mainMenu .postres__subtittle, .mainMenu .bebidasYTragos__subtittle {
+    font-size: 25px;
+    color: whitesmoke;
+    display: inline;
+    padding: 0px 1rem; }
+  .mainMenu .guarniciones__variedades1, .mainMenu .guarniciones__variedades2 {
+    padding: 1rem 0px; }
+    .mainMenu .guarniciones__variedades1 .guarniciones__item, .mainMenu .guarniciones__variedades2 .guarniciones__item {
+      font-size: 23px;
+      color: white; }
+  .mainMenu .guarniciones__img--modificaciones {
+    width: 50%;
+    border: 2px solid brown;
+    margin-bottom: 1rem; }
+  .mainMenu .carnes__variedades {
+    padding: 1rem 0px; }
+    .mainMenu .carnes__variedades .carnes__item {
+      font-size: 23px;
+      color: white; }
+  .mainMenu .carnes__img1--modificaciones {
+    width: 50%;
+    border: 2px solid brown;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 8rem; }
+  .mainMenu .carnes__img2--modificaciones {
+    width: 50%;
+    border: 2px solid brown;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 8rem; }
+  .mainMenu .pastas__variedades {
+    padding: 1rem 0px; }
+    .mainMenu .pastas__variedades .pastas__item {
+      font-size: 25px;
+      color: white; }
+  .mainMenu .pastas__img1--modificaciones {
+    width: 60%;
+    border: 2px solid brown;
+    margin: 1rem 0px; }
+  .mainMenu .pastas__img2--modificaciones {
+    width: 60%;
+    border: 2px solid brown;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem; }
+  .mainMenu .pastas__img3--modificaciones {
+    width: 60%;
+    height: 50%;
+    border: 2px solid brown;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .mainMenu .postres__variedades {
+    padding: 1rem 0px; }
+    .mainMenu .postres__variedades .postres__item {
+      font-size: 25px;
+      color: white; }
+  .mainMenu .postres__img--modificaciones {
+    width: 70%;
+    border: 2px solid brown;
+    margin: 1rem 0px; }
+  .mainMenu .bebidasYTragos__sinAlcohol, .mainMenu .bebidasYTragos__conAlcohol {
+    font-size: 30px;
+    color: sandybrown;
+    padding: 1rem 0px; }
+  .mainMenu .sinAlcohol__variedades .sinAlcohol__item {
+    font-size: 25px;
+    color: white; }
+  .mainMenu .conAlcohol__variedades {
+    padding: 1rem 0px; }
+    .mainMenu .conAlcohol__variedades .bebidasYTragos__conAlcohol {
+      font-size: 30px;
+      color: sandybrown; }
+  .mainMenu .conAlcohol__item {
+    font-size: 25px;
+    color: white; }
+  .mainMenu .bebidasYTragos__img--modificaciones {
+    width: 40%;
+    border: 2px solid brown;
+    margin-bottom: 1rem; }
+
+.mainNovedades {
+  background-color: #B9B99D;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100%25 100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(0,800,397)' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237f7f77'/%3E%3Cstop offset='0.02' stop-color='%23B9B99D'/%3E%3Cstop offset='0.02' stop-color='%23c2c2b4'/%3E%3Cstop offset='0.032' stop-color='%23B9B99D'/%3E%3Cstop offset='0.032' stop-color='%23c1c1ab'/%3E%3Cstop offset='0.056' stop-color='%23B9B99D'/%3E%3Cstop offset='0.056' stop-color='%239f9f97'/%3E%3Cstop offset='0.07' stop-color='%23B9B99D'/%3E%3Cstop offset='0.07' stop-color='%23acac98'/%3E%3Cstop offset='0.1' stop-color='%23B9B99D'/%3E%3Cstop offset='0.1' stop-color='%23d1d1cc'/%3E%3Cstop offset='0.126' stop-color='%23B9B99D'/%3E%3Cstop offset='0.126' stop-color='%2380807a'/%3E%3Cstop offset='0.142' stop-color='%23B9B99D'/%3E%3Cstop offset='0.142' stop-color='%23c4c4b2'/%3E%3Cstop offset='0.159' stop-color='%23B9B99D'/%3E%3Cstop offset='0.159' stop-color='%23989882'/%3E%3Cstop offset='0.17' stop-color='%23B9B99D'/%3E%3Cstop offset='0.17' stop-color='%23c8c8b4'/%3E%3Cstop offset='0.197' stop-color='%23B9B99D'/%3E%3Cstop offset='0.197' stop-color='%238c8c7e'/%3E%3Cstop offset='0.218' stop-color='%23B9B99D'/%3E%3Cstop offset='0.218' stop-color='%23b6b69f'/%3E%3Cstop offset='0.239' stop-color='%23B9B99D'/%3E%3Cstop offset='0.239' stop-color='%23bfbfae'/%3E%3Cstop offset='0.254' stop-color='%23B9B99D'/%3E%3Cstop offset='0.254' stop-color='%23aaaa9b'/%3E%3Cstop offset='0.283' stop-color='%23B9B99D'/%3E%3Cstop offset='0.283' stop-color='%23cecec8'/%3E%3Cstop offset='0.294' stop-color='%23B9B99D'/%3E%3Cstop offset='0.294' stop-color='%23afaf9e'/%3E%3Cstop offset='0.305' stop-color='%23B9B99D'/%3E%3Cstop offset='0.305' stop-color='%23b8b89d'/%3E%3Cstop offset='0.332' stop-color='%23B9B99D'/%3E%3Cstop offset='0.332' stop-color='%23e8e8e2'/%3E%3Cstop offset='0.346' stop-color='%23B9B99D'/%3E%3Cstop offset='0.346' stop-color='%23d3d3cb'/%3E%3Cstop offset='0.362' stop-color='%23B9B99D'/%3E%3Cstop offset='0.362' stop-color='%23939386'/%3E%3Cstop offset='0.381' stop-color='%23B9B99D'/%3E%3Cstop offset='0.381' stop-color='%23c4c4b7'/%3E%3Cstop offset='0.415' stop-color='%23B9B99D'/%3E%3Cstop offset='0.415' stop-color='%23b9b9a2'/%3E%3Cstop offset='0.428' stop-color='%23B9B99D'/%3E%3Cstop offset='0.428' stop-color='%23ebebe5'/%3E%3Cstop offset='0.442' stop-color='%23B9B99D'/%3E%3Cstop offset='0.442' stop-color='%23b3b39a'/%3E%3Cstop offset='0.456' stop-color='%23B9B99D'/%3E%3Cstop offset='0.456' stop-color='%23d3d3c9'/%3E%3Cstop offset='0.498' stop-color='%23B9B99D'/%3E%3Cstop offset='0.498' stop-color='%23c5c5b6'/%3E%3Cstop offset='0.511' stop-color='%23B9B99D'/%3E%3Cstop offset='0.511' stop-color='%23bebeaf'/%3E%3Cstop offset='0.532' stop-color='%23B9B99D'/%3E%3Cstop offset='0.532' stop-color='%23a3a38c'/%3E%3Cstop offset='0.541' stop-color='%23B9B99D'/%3E%3Cstop offset='0.541' stop-color='%23d3d3c3'/%3E%3Cstop offset='0.56' stop-color='%23B9B99D'/%3E%3Cstop offset='0.56' stop-color='%23bbbba1'/%3E%3Cstop offset='0.581' stop-color='%23B9B99D'/%3E%3Cstop offset='0.581' stop-color='%239d9d97'/%3E%3Cstop offset='0.6' stop-color='%23B9B99D'/%3E%3Cstop offset='0.6' stop-color='%23b0b0a2'/%3E%3Cstop offset='0.618' stop-color='%23B9B99D'/%3E%3Cstop offset='0.618' stop-color='%23d0d0c9'/%3E%3Cstop offset='0.656' stop-color='%23B9B99D'/%3E%3Cstop offset='0.656' stop-color='%23979788'/%3E%3Cstop offset='0.679' stop-color='%23B9B99D'/%3E%3Cstop offset='0.679' stop-color='%23d6d6cd'/%3E%3Cstop offset='0.689' stop-color='%23B9B99D'/%3E%3Cstop offset='0.689' stop-color='%23cacaba'/%3E%3Cstop offset='0.720' stop-color='%23B9B99D'/%3E%3Cstop offset='0.720' stop-color='%23949485'/%3E%3Cstop offset='0.734' stop-color='%23B9B99D'/%3E%3Cstop offset='0.734' stop-color='%23b9b99d'/%3E%3Cstop offset='0.748' stop-color='%23B9B99D'/%3E%3Cstop offset='0.748' stop-color='%23e1e1d8'/%3E%3Cstop offset='0.764' stop-color='%23B9B99D'/%3E%3Cstop offset='0.764' stop-color='%23b5b59a'/%3E%3Cstop offset='0.788' stop-color='%23B9B99D'/%3E%3Cstop offset='0.788' stop-color='%237f7f6d'/%3E%3Cstop offset='0.808' stop-color='%23B9B99D'/%3E%3Cstop offset='0.808' stop-color='%2385857e'/%3E%3Cstop offset='0.831' stop-color='%23B9B99D'/%3E%3Cstop offset='0.831' stop-color='%23bfbfb8'/%3E%3Cstop offset='0.856' stop-color='%23B9B99D'/%3E%3Cstop offset='0.856' stop-color='%23d5d5cb'/%3E%3Cstop offset='0.872' stop-color='%23B9B99D'/%3E%3Cstop offset='0.872' stop-color='%23d0d0bf'/%3E%3Cstop offset='0.894' stop-color='%23B9B99D'/%3E%3Cstop offset='0.894' stop-color='%23c1c1ba'/%3E%3Cstop offset='0.914' stop-color='%23B9B99D'/%3E%3Cstop offset='0.914' stop-color='%23848477'/%3E%3Cstop offset='0.942' stop-color='%23B9B99D'/%3E%3Cstop offset='0.942' stop-color='%239b9b94'/%3E%3Cstop offset='0.957' stop-color='%23B9B99D'/%3E%3Cstop offset='0.957' stop-color='%23bebeaa'/%3E%3Cstop offset='0.973' stop-color='%23B9B99D'/%3E%3Cstop offset='0.973' stop-color='%23b8b89d'/%3E%3Cstop offset='1' stop-color='%23B9B99D'/%3E%3Cstop offset='1' stop-color='%23cfcfc7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' x='0' y='0' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem 0px;
+  /* seccion de nuevos platos */
+  /* seccion de ultimos cambios */ }
+  .mainNovedades .nuevosPlatos__tittle {
+    font-size: 35px;
+    color: black;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 2rem; }
+  .mainNovedades .nuevoPlato1-bg, .mainNovedades .nuevoPlato2-bg {
+    background-image: url(../assets/img/bg-nuevosplatos.jpg);
+    border: 2px solid black;
+    padding: 0px;
+    margin-bottom: 2rem; }
+  .mainNovedades .nuevoPlato1__img {
+    width: 100%;
+    border-right: 2px solid black; }
+  .mainNovedades .nuevoPlato2__img {
+    width: 100%;
+    border-left: 2px solid black; }
+  .mainNovedades .nuevoPlato1__tittle, .mainNovedades .nuevoPlato2__tittle {
+    font-size: 30px;
+    color: black; }
+  .mainNovedades .nuevoPlato1__texto, .mainNovedades .nuevoPlato2__texto {
+    font-size: 23px;
+    color: whitesmoke; }
+  .mainNovedades .ultimosCambios__tittle {
+    font-size: 30px;
+    color: brown;
+    padding-bottom: 1rem; }
+  .mainNovedades .carousel {
+    border: 2px solid black; }
+    .mainNovedades .carousel .carousel-inner {
+      width: 100%;
+      height: 650px !important; }
+  .mainNovedades .cambios__img {
+    height: 100%;
+    width: auto; }
+
+.index {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden; }
+  .index .mainIndex {
+    background-color: #F49F4E;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='272' height='272' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d38232' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    /* modificaciones de la seccion de presentacion */
+    /* modificaciones de la seccion de infoDeLocal */ }
+    .index .mainIndex .presentacion {
+      padding-top: 5rem; }
+      .index .mainIndex .presentacion .presentacion__texto {
+        font-size: 25px; }
+    .index .mainIndex .infoDeLocal {
+      padding-top: 7rem;
+      padding-bottom: 3rem; }
+      .index .mainIndex .infoDeLocal .infoDeLocal__tittle {
+        font-size: 45px;
+        color: black; }
+      .index .mainIndex .infoDeLocal .infoDeLocal__ubicacion {
+        padding-top: 5rem; }
+      .index .mainIndex .infoDeLocal .infoDeLocal__video {
+        width: 800px;
+        height: 450px; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    /* modificaciones del header */
+    /* modificaciones del footer */ }
+    body .header .header__logo {
+      width: 75px;
+      border: 1px solid black; }
+    body .header .header__tittle {
+      font-size: 25px;
+      padding-left: 0.5rem;
+      padding-top: 1rem; }
+    body .header .header__nav {
+      padding: 0px; }
+      body .header .header__nav .navbar {
+        background-color: none;
+        height: auto;
+        margin-top: 0px;
+        font-size: 15px;
+        padding: 5px; }
+    body .footer {
+      padding: 10px 0px; }
+      body .footer .footer__tittle {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 10px; }
+      body .footer .footer__img--modificaciones {
+        width: 40px;
+        margin: 0px 0.5rem; }
+  /* modificaciones de la seccion de presentacion */
+  .index
+.mainIndex {
+    /* modificaciones de la seccion de infoDeLocal */ }
+    .index
+.mainIndex .presentacion {
+      padding-top: 2rem; }
+      .index
+.mainIndex .presentacion .presentacion__texto {
+        font-size: 15px; }
+    .index
+.mainIndex .infoDeLocal {
+      padding-top: 2rem;
+      padding-bottom: 1rem; }
+      .index
+.mainIndex .infoDeLocal .infoDeLocal__tittle {
+        font-size: 30px; }
+      .index
+.mainIndex .infoDeLocal .infoDeLocal__ubicacion {
+        padding-top: 2rem;
+        height: 100px; }
+      .index
+.mainIndex .infoDeLocal .infoDeLocal__video {
+        padding-top: 1rem;
+        width: 160px;
+        height: 130px; }
+  /* modificaciones de la seccion de comienzo */
+  .mainNosotros {
+    /* modificaciones de las seccion de personal */ }
+    .mainNosotros .comienzo {
+      padding-top: 1rem;
+      padding-bottom: 1.5rem; }
+      .mainNosotros .comienzo .comienzo__tittle {
+        font-size: 25px;
+        color: black; }
+      .mainNosotros .comienzo .comienzo__img .comienzo__img--modificaciones {
+        width: 90%;
+        border: 1px solid black; }
+      .mainNosotros .comienzo .comienzo__texto {
+        font-size: 13px;
+        width: 100%;
+        border: 1px double black; }
+    .mainNosotros .personal {
+      padding-bottom: 1rem; }
+      .mainNosotros .personal .personal__tittle {
+        font-size: 20px;
+        color: black; }
+  .mainNovedades {
+    padding-top: 0.5rem;
+    /* seccion de nuevos platos */
+    /* seccion de ultimos cambios */ }
+    .mainNovedades .nuevosPlatos .nuevosPlatos__tittle {
+      font-size: 25px;
+      padding-bottom: 0.5rem; }
+    .mainNovedades .nuevosPlatos .nuevoPlato1 .nuevoPlato1-bg {
+      background-image: url(../assets/img/bg-nuevosplatos.jpg);
+      border: 2px solid black; }
+    .mainNovedades .nuevosPlatos .nuevoPlato2 .nuevoPlato2-bg {
+      background-image: url(../assets/img/bg-nuevosplatos.jpg);
+      border: 2px solid black; }
+    .mainNovedades .nuevosPlatos .nuevoPlato1__img {
+      border-right: 0px;
+      border-bottom: 1px solid black; }
+    .mainNovedades .nuevosPlatos .nuevoPlato2__img {
+      border-left: 0px;
+      border-top: 1px solid black; }
+    .mainNovedades .nuevosPlatos .nuevoPlato1__tittle, .mainNovedades .nuevosPlatos .nuevoPlato2__tittle {
+      font-size: 20px; }
+    .mainNovedades .nuevosPlatos .nuevoPlato1__texto, .mainNovedades .nuevosPlatos .nuevoPlato2__texto {
+      font-size: 12px; }
+    .mainNovedades .ultimosCambios .ultimosCambios__tittle {
+      font-size: 20px; }
+    .mainNovedades .ultimosCambios .carousel {
+      border: 1px solid black; }
+      .mainNovedades .ultimosCambios .carousel .carousel-inner {
+        width: 100%;
+        height: 200px !important; }
+  .mainMenu {
+    padding: 1rem 0px;
+    /* seccion de comidas */
+    /* seccion de guarniciones */
+    /* seccion de carnes */
+    /* seccion de pastas */
+    /* seccion de postres */
+    /* seccion de bebidas y tragos */ }
+    .mainMenu .menu__tittle {
+      font-size: 20px;
+      padding-bottom: 1rem; }
+    .mainMenu #guarniciones, .mainMenu #carnes, .mainMenu #pastas, .mainMenu #postres, .mainMenu #bebidasYTragos {
+      margin: 1rem 0px; }
+    .mainMenu .guarniciones__tittle, .mainMenu .carnes__tittle, .mainMenu .pastas__tittle, .mainMenu .postres__tittle, .mainMenu .bebidasYTragos__tittle {
+      font-size: 15px;
+      padding: 0px 5px; }
+    .mainMenu .guarniciones__subtittle, .mainMenu .carnes__subtittle, .mainMenu .pastas__subtittle, .mainMenu .postres__subtittle, .mainMenu .bebidasYTragos__subtittle {
+      font-size: 15px; }
+    .mainMenu #guarniciones .guarniciones__variedades1, .mainMenu #guarniciones .guarniciones__variedades2 {
+      padding-left: 30px; }
+      .mainMenu #guarniciones .guarniciones__variedades1 .guarniciones__item, .mainMenu #guarniciones .guarniciones__variedades2 .guarniciones__item {
+        font-size: 12px; }
+    .mainMenu #guarniciones .guarniciones__img .guarniciones__img--modificaciones {
+      border: 1px solid brown;
+      margin-bottom: 0.5rem;
+      width: 100%; }
+    .mainMenu .carnes__variedades {
+      padding: 0.5rem 0px; }
+      .mainMenu .carnes__variedades .carnes__item {
+        font-size: 12px; }
+    .mainMenu .carnes__img div .carnes__img1--modificaciones {
+      border: 1px solid brown;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      margin-right: 3rem; }
+    .mainMenu .carnes__img div .carnes__img2--modificaciones {
+      border: 1px solid brown;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 3rem; }
+    .mainMenu .pastas__variedades {
+      padding: 0.5rem 0px; }
+      .mainMenu .pastas__variedades .pastas__item {
+        font-size: 12px; }
+    .mainMenu .pastas__img1--modificaciones {
+      border: 1px solid brown;
+      margin: 0.5rem 0px; }
+    .mainMenu .pastas__img2--modificaciones {
+      border: 1px solid brown;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-right: 1.5rem; }
+    .mainMenu .pastas__img3--modificaciones {
+      border: 1px solid brown;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      margin-left: 0.5rem; }
+    .mainMenu .postres__variedades {
+      padding: 0.5rem 0px; }
+      .mainMenu .postres__variedades .postres__item {
+        font-size: 12px; }
+    .mainMenu .postres__img--modificaciones {
+      border: 1px solid brown;
+      margin: 0.5rem 0px; }
+    .mainMenu .bebidasYTragos__sinAlcohol, .mainMenu .bebidasYTragos__conAlcohol {
+      font-size: 20px;
+      padding: 0.5rem 0px; }
+    .mainMenu .sinAlcohol__variedades .sinAlcohol__item {
+      font-size: 12px; }
+    .mainMenu .conAlcohol__variedades {
+      padding: 0.5rem 0px; }
+      .mainMenu .conAlcohol__variedades .conAlcohol__item {
+        font-size: 12px; }
+    .mainMenu .bebidasYTragos__img--modificaciones {
+      border: 1px solid brown;
+      margin-bottom: 0.5rem; }
+  .mainContacto {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    .mainContacto .contacto__tittle {
+      font-size: 30px; }
+    .mainContacto .form .form__name {
+      font-size: 20px;
+      padding-left: 1rem; }
+    .mainContacto .form .form__nombreApellido {
+      padding-left: 1rem; }
+      .mainContacto .form .form__nombreApellido .form__name--modificaciones, .mainContacto .form .form__nombreApellido .form__apellido--modificaciones {
+        font-size: 15px; }
+    .mainContacto .form .form__textarea {
+      font-size: 20px;
+      padding-left: 1rem; }
+    .mainContacto .form .form__textarea--modificaciones {
+      font-size: 15px;
+      padding-left: 1rem; }
+    .mainContacto .form .form__enviarBorrar {
+      padding-left: 1rem; }
+      .mainContacto .form .form__enviarBorrar .form__enviar, .mainContacto .form .form__enviarBorrar .form__borrar {
+        font-size: 15px; }
+    .mainContacto .contactanos__numero {
+      font-size: 17px;
+      border: 1px solid black;
+      margin-left: 1rem; }
+    .mainContacto .contactanos {
+      padding-top: 2rem; }
+      .mainContacto .contactanos .contactanos__tittle--position {
+        padding-left: 1rem; }
+        .mainContacto .contactanos .contactanos__tittle--position .contactanos__tittle {
+          font-size: 20px; }
+      .mainContacto .contactanos .contactanos__texto--position {
+        padding-left: 1rem; }
+        .mainContacto .contactanos .contactanos__texto--position .contactanos__texto {
+          font-size: 17px;
+          width: 100%; }
+    .mainContacto .contactanos__comenta {
+      padding-left: 1rem; }
+      .mainContacto .contactanos__comenta .comenta__tittle {
+        font-size: 20px; }
+      .mainContacto .contactanos__comenta .comenta__img {
+        width: 50px; } }

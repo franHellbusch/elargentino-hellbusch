@@ -1,0 +1,84 @@
+.mainContacto{
+	background:{
+		color: $colorContacto;
+		image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23534618' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23675119' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%237c5c1b' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%2391671b' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23a6721c' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23BC7E1C' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+		attachment: fixed;
+		size: cover;
+	}
+	padding:{
+		top: 2rem;
+		bottom: 3rem;
+	}
+	font-family: $font;
+	.contacto__tittle{
+		font-size: 45px;
+		color: whitesmoke;
+		padding-bottom: 1rem;
+	}
+	.form{
+		.form__name{
+			font-size: 30px;
+			color: whitesmoke;
+			padding-left: 8rem;
+		}
+		.form__nombreApellido{
+			padding-left: 8rem;
+			.form__name--modificaciones, .form__apellido--modificaciones{
+				font-size: 20px;
+			}
+		}
+		.form__textarea{
+			font-size: 30px;
+			color: whitesmoke;
+			padding-left: 8rem;
+		}
+		.form__textarea--modificaciones{
+			font-size: 20px;
+			padding-left: 8rem;
+			width: 100%;
+		}
+		.form__enviarBorrar{
+			padding-left: 8rem;
+			.form__enviar, .form__borrar{
+				font-size: 20px;
+			}
+		}
+	}
+	.contactanos__numero{
+		font-size: 25px;
+		color: black;
+		background-color: brown;
+		border: 2px solid black;
+		margin-left: 8rem;
+	}
+	.contactanos{
+		padding-top: 1rem;
+		.contactanos__tittle--position{
+			padding-left: 8rem;
+			.contactanos__tittle{
+				font-size: 30px;
+				color: black;
+			}
+		}
+		.contactanos__texto--position{
+			padding-left: 8rem;
+			.contactanos__texto{
+				font-size: 25px;
+				color: whitesmoke;
+			}
+		}
+	}
+	.contactanos__comenta{
+		padding:{
+			left: 8rem;
+			top: 1rem;
+		}
+		.comenta__tittle{
+			font-size: 30px;
+			color: black;
+		}
+		.comenta__img{
+			width: 100px;
+		}
+	}
+}

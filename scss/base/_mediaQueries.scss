@@ -1,0 +1,346 @@
+@media only screen and (max-width: 600px) {
+	body{
+			/* modificaciones del header */
+			.header{
+				.header__logo{
+					width: 75px;
+					border: 1px solid black;
+				}
+				.header__tittle{
+					font-size: 25px;
+					padding:{
+						left: 0.5rem;
+						top: 1rem;
+					}
+				}
+				.header__nav{
+					padding: 0px;
+					.navbar{
+						background-color: none;
+						height: auto;
+						margin-top: 0px;
+						font-size: 15px;
+						padding: 5px;
+					}
+				}
+			}
+			/* modificaciones del footer */
+			.footer{
+				padding: 10px 0px;
+				.footer__tittle{
+					font-size: 20px;
+					padding:{
+						left: 10px;
+						top: 10px;
+					}
+				}
+				.footer__img--modificaciones{
+					width: 40px;
+					margin: 0px 0.5rem;
+				}
+			}
+		}
+		// modificaciones del main index
+		/* modificaciones de la seccion de presentacion */
+		.index
+			.mainIndex{
+				.presentacion{
+					padding-top: 2rem;
+					.presentacion__texto{
+						font-size: 15px;
+					}
+				}
+				/* modificaciones de la seccion de infoDeLocal */
+				.infoDeLocal{
+					padding-top: 2rem;
+					padding-bottom: 1rem;
+					.infoDeLocal__tittle{
+						font-size: 30px;
+					}
+					.infoDeLocal__ubicacion{
+						padding-top: 2rem;
+						height: 100px;
+					}
+					.infoDeLocal__video{
+						padding-top: 1rem;
+						width: 160px;
+						height: 130px;
+					}
+				}
+			}
+		/* modificaciones de la seccion de comienzo */
+		.mainNosotros{
+			.comienzo{
+				padding:{
+					top: 1rem;
+					bottom: 1.5rem;
+				}
+				.comienzo__tittle{
+					font-size: 25px;
+					color: black;
+				}
+				.comienzo__img{
+					.comienzo__img--modificaciones{
+						width: 90%;
+						border: 1px solid black;
+					}
+				}
+				.comienzo__texto{
+					font-size: 13px;
+					width: 100%;
+					border: 1px double black;
+				}
+			}
+			/* modificaciones de las seccion de personal */
+			.personal{
+				padding-bottom: 1rem;
+				.personal__tittle{
+					font-size: 20px;
+					color: black;
+				}
+			}
+		}
+		// modificaciones del mainNovedades
+		.mainNovedades{
+			padding-top: 0.5rem;
+		/* seccion de nuevos platos */
+		.nuevosPlatos{
+			.nuevosPlatos__tittle{
+				font-size: 25px;
+				padding-bottom: 0.5rem;
+			}
+			.nuevoPlato1{
+				.nuevoPlato1-bg{
+					background-image: url(../assets/img/bg-nuevosplatos.jpg);
+					border: 2px solid black;
+				}
+			}
+			.nuevoPlato2{
+				.nuevoPlato2-bg{
+					background-image: url(../assets/img/bg-nuevosplatos.jpg);
+					border: 2px solid black;
+				}
+			}
+			.nuevoPlato1__img{
+				border:{
+					right: 0px;
+					bottom: 1px solid black;
+				}
+			}
+			.nuevoPlato2__img{
+				border:{
+					left: 0px;
+					top: 1px solid black;
+				}	
+			}
+			.nuevoPlato1__tittle, .nuevoPlato2__tittle{
+				font-size: 20px;
+			}
+			.nuevoPlato1__texto, .nuevoPlato2__texto{
+				font-size: 12px;
+			}
+		}
+		/* seccion de ultimos cambios */
+		.ultimosCambios{	
+			.ultimosCambios__tittle{
+				font-size: 20px;
+			}
+			.carousel{
+				border: 1px solid black;
+				.carousel-inner{
+					width: 100%;
+					height: 200px !important;
+				}
+			}
+		}
+	}
+		// modificaciones del mainMenu
+		.mainMenu{
+		padding: 1rem 0px;
+			.menu__tittle{
+				font-size: 20px;
+				padding-bottom: 1rem;
+			}
+			/* seccion de comidas */
+			#guarniciones, #carnes, #pastas, #postres, #bebidasYTragos{
+				margin: 1rem 0px;
+			}
+			.guarniciones__tittle, .carnes__tittle, .pastas__tittle, .postres__tittle, .bebidasYTragos__tittle{
+				font-size: 15px;
+				padding: 0px 5px;
+			}
+			.guarniciones__subtittle, .carnes__subtittle, .pastas__subtittle, .postres__subtittle, .bebidasYTragos__subtittle{
+				font-size: 15px;
+			}
+			/* seccion de guarniciones */
+			#guarniciones{
+				.guarniciones__variedades1, .guarniciones__variedades2{
+					padding-left: 30px;
+					.guarniciones__item{
+						font-size: 12px;
+					}
+				}
+				.guarniciones__img{
+					.guarniciones__img--modificaciones{
+						border: 1px solid brown;
+						margin-bottom: 0.5rem;
+						width: 100%;
+					}
+				}
+			}
+			/* seccion de carnes */
+			.carnes__variedades{
+				padding: 0.5rem 0px;
+				.carnes__item{
+					font-size: 12px;
+				}
+			}
+			.carnes__img{
+				div{
+					.carnes__img1--modificaciones{
+						border: 1px solid brown;
+						margin:{
+							top: 0.5rem;
+							bottom: 1.5rem;
+							right: 3rem;
+						}
+					}
+				}
+				div{
+					.carnes__img2--modificaciones{
+						border: 1px solid brown;
+						margin:{
+							top: 0.5rem;
+							bottom: 0.5rem;
+							left: 3rem;
+						}
+					}
+				}
+			}
+			/* seccion de pastas */
+			.pastas__variedades{
+				padding: 0.5rem 0px;
+				.pastas__item{
+					font-size: 12px;
+				}
+			}
+			.pastas__img1--modificaciones{
+				border: 1px solid brown;
+				margin: 0.5rem 0px;
+			}
+			.pastas__img2--modificaciones{
+				border: 1px solid brown;
+				margin:{
+					top:0.5rem; 
+					bottom: 0.5rem;
+					right: 1.5rem;
+				}
+			}
+			.pastas__img3--modificaciones{
+				border: 1px solid brown;
+				margin:{
+					top:2rem ;
+					bottom: 0.5rem;
+					left: 0.5rem;
+				}
+			}
+			/* seccion de postres */
+			.postres__variedades{
+				padding: 0.5rem 0px;
+				.postres__item{
+					font-size: 12px;
+				}
+			}
+			.postres__img--modificaciones{
+				border: 1px solid brown;
+				margin: 0.5rem 0px;
+			}
+			/* seccion de bebidas y tragos */
+			.bebidasYTragos__sinAlcohol, .bebidasYTragos__conAlcohol{
+				font-size: 20px;
+				padding: 0.5rem 0px;
+			}
+			.sinAlcohol__variedades{
+				.sinAlcohol__item{
+					font-size: 12px;
+				}
+			}
+			.conAlcohol__variedades{
+				padding: 0.5rem 0px;
+				.conAlcohol__item{
+					font-size: 12px;
+				}
+			}
+			.bebidasYTragos__img--modificaciones{
+				border: 1px solid brown;
+				margin-bottom: 0.5rem;
+			}
+		}
+		// modificaciones del mainContacto
+		.mainContacto{
+		padding:{
+			top: 1rem;
+			bottom: 1rem;
+		}
+		.contacto__tittle{
+			font-size: 30px;
+		}
+		.form{
+			.form__name{
+				font-size: 20px;
+				padding-left: 1rem;
+			}
+			.form__nombreApellido{
+				padding-left: 1rem;
+				.form__name--modificaciones, .form__apellido--modificaciones{
+					font-size: 15px;
+				}
+			}
+			.form__textarea{
+				font-size: 20px;
+				padding-left: 1rem;
+			}
+			.form__textarea--modificaciones{
+				font-size: 15px;
+				padding-left: 1rem;
+			}
+			.form__enviarBorrar{
+				padding-left: 1rem;
+				.form__enviar, .form__borrar{
+					font-size: 15px;
+				}
+			}
+		}
+		.contactanos__numero{
+			font-size: 17px;
+			border: 1px solid black;
+			margin-left: 1rem;
+		}
+		.contactanos{
+			padding-top: 2rem;
+			.contactanos__tittle--position{
+				padding-left: 1rem;
+				.contactanos__tittle{
+					font-size: 20px;
+				}
+			}
+			.contactanos__texto--position{
+				padding-left: 1rem;
+				.contactanos__texto{
+					font-size: 17px;
+					width: 100%;
+				}
+			}
+		}
+		.contactanos__comenta{
+			padding-left: 1rem;
+			.comenta__tittle{
+				font-size: 20px;
+			}
+			.comenta__img{
+				width: 50px;
+			}
+		}
+	}
+	
+}

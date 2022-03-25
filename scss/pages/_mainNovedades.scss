@@ -1,0 +1,58 @@
+.mainNovedades{
+	background:{
+		color: $colorNovedades;
+		image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100%25 100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(0,800,397)' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237f7f77'/%3E%3Cstop offset='0.02' stop-color='%23B9B99D'/%3E%3Cstop offset='0.02' stop-color='%23c2c2b4'/%3E%3Cstop offset='0.032' stop-color='%23B9B99D'/%3E%3Cstop offset='0.032' stop-color='%23c1c1ab'/%3E%3Cstop offset='0.056' stop-color='%23B9B99D'/%3E%3Cstop offset='0.056' stop-color='%239f9f97'/%3E%3Cstop offset='0.07' stop-color='%23B9B99D'/%3E%3Cstop offset='0.07' stop-color='%23acac98'/%3E%3Cstop offset='0.1' stop-color='%23B9B99D'/%3E%3Cstop offset='0.1' stop-color='%23d1d1cc'/%3E%3Cstop offset='0.126' stop-color='%23B9B99D'/%3E%3Cstop offset='0.126' stop-color='%2380807a'/%3E%3Cstop offset='0.142' stop-color='%23B9B99D'/%3E%3Cstop offset='0.142' stop-color='%23c4c4b2'/%3E%3Cstop offset='0.159' stop-color='%23B9B99D'/%3E%3Cstop offset='0.159' stop-color='%23989882'/%3E%3Cstop offset='0.17' stop-color='%23B9B99D'/%3E%3Cstop offset='0.17' stop-color='%23c8c8b4'/%3E%3Cstop offset='0.197' stop-color='%23B9B99D'/%3E%3Cstop offset='0.197' stop-color='%238c8c7e'/%3E%3Cstop offset='0.218' stop-color='%23B9B99D'/%3E%3Cstop offset='0.218' stop-color='%23b6b69f'/%3E%3Cstop offset='0.239' stop-color='%23B9B99D'/%3E%3Cstop offset='0.239' stop-color='%23bfbfae'/%3E%3Cstop offset='0.254' stop-color='%23B9B99D'/%3E%3Cstop offset='0.254' stop-color='%23aaaa9b'/%3E%3Cstop offset='0.283' stop-color='%23B9B99D'/%3E%3Cstop offset='0.283' stop-color='%23cecec8'/%3E%3Cstop offset='0.294' stop-color='%23B9B99D'/%3E%3Cstop offset='0.294' stop-color='%23afaf9e'/%3E%3Cstop offset='0.305' stop-color='%23B9B99D'/%3E%3Cstop offset='0.305' stop-color='%23b8b89d'/%3E%3Cstop offset='0.332' stop-color='%23B9B99D'/%3E%3Cstop offset='0.332' stop-color='%23e8e8e2'/%3E%3Cstop offset='0.346' stop-color='%23B9B99D'/%3E%3Cstop offset='0.346' stop-color='%23d3d3cb'/%3E%3Cstop offset='0.362' stop-color='%23B9B99D'/%3E%3Cstop offset='0.362' stop-color='%23939386'/%3E%3Cstop offset='0.381' stop-color='%23B9B99D'/%3E%3Cstop offset='0.381' stop-color='%23c4c4b7'/%3E%3Cstop offset='0.415' stop-color='%23B9B99D'/%3E%3Cstop offset='0.415' stop-color='%23b9b9a2'/%3E%3Cstop offset='0.428' stop-color='%23B9B99D'/%3E%3Cstop offset='0.428' stop-color='%23ebebe5'/%3E%3Cstop offset='0.442' stop-color='%23B9B99D'/%3E%3Cstop offset='0.442' stop-color='%23b3b39a'/%3E%3Cstop offset='0.456' stop-color='%23B9B99D'/%3E%3Cstop offset='0.456' stop-color='%23d3d3c9'/%3E%3Cstop offset='0.498' stop-color='%23B9B99D'/%3E%3Cstop offset='0.498' stop-color='%23c5c5b6'/%3E%3Cstop offset='0.511' stop-color='%23B9B99D'/%3E%3Cstop offset='0.511' stop-color='%23bebeaf'/%3E%3Cstop offset='0.532' stop-color='%23B9B99D'/%3E%3Cstop offset='0.532' stop-color='%23a3a38c'/%3E%3Cstop offset='0.541' stop-color='%23B9B99D'/%3E%3Cstop offset='0.541' stop-color='%23d3d3c3'/%3E%3Cstop offset='0.56' stop-color='%23B9B99D'/%3E%3Cstop offset='0.56' stop-color='%23bbbba1'/%3E%3Cstop offset='0.581' stop-color='%23B9B99D'/%3E%3Cstop offset='0.581' stop-color='%239d9d97'/%3E%3Cstop offset='0.6' stop-color='%23B9B99D'/%3E%3Cstop offset='0.6' stop-color='%23b0b0a2'/%3E%3Cstop offset='0.618' stop-color='%23B9B99D'/%3E%3Cstop offset='0.618' stop-color='%23d0d0c9'/%3E%3Cstop offset='0.656' stop-color='%23B9B99D'/%3E%3Cstop offset='0.656' stop-color='%23979788'/%3E%3Cstop offset='0.679' stop-color='%23B9B99D'/%3E%3Cstop offset='0.679' stop-color='%23d6d6cd'/%3E%3Cstop offset='0.689' stop-color='%23B9B99D'/%3E%3Cstop offset='0.689' stop-color='%23cacaba'/%3E%3Cstop offset='0.720' stop-color='%23B9B99D'/%3E%3Cstop offset='0.720' stop-color='%23949485'/%3E%3Cstop offset='0.734' stop-color='%23B9B99D'/%3E%3Cstop offset='0.734' stop-color='%23b9b99d'/%3E%3Cstop offset='0.748' stop-color='%23B9B99D'/%3E%3Cstop offset='0.748' stop-color='%23e1e1d8'/%3E%3Cstop offset='0.764' stop-color='%23B9B99D'/%3E%3Cstop offset='0.764' stop-color='%23b5b59a'/%3E%3Cstop offset='0.788' stop-color='%23B9B99D'/%3E%3Cstop offset='0.788' stop-color='%237f7f6d'/%3E%3Cstop offset='0.808' stop-color='%23B9B99D'/%3E%3Cstop offset='0.808' stop-color='%2385857e'/%3E%3Cstop offset='0.831' stop-color='%23B9B99D'/%3E%3Cstop offset='0.831' stop-color='%23bfbfb8'/%3E%3Cstop offset='0.856' stop-color='%23B9B99D'/%3E%3Cstop offset='0.856' stop-color='%23d5d5cb'/%3E%3Cstop offset='0.872' stop-color='%23B9B99D'/%3E%3Cstop offset='0.872' stop-color='%23d0d0bf'/%3E%3Cstop offset='0.894' stop-color='%23B9B99D'/%3E%3Cstop offset='0.894' stop-color='%23c1c1ba'/%3E%3Cstop offset='0.914' stop-color='%23B9B99D'/%3E%3Cstop offset='0.914' stop-color='%23848477'/%3E%3Cstop offset='0.942' stop-color='%23B9B99D'/%3E%3Cstop offset='0.942' stop-color='%239b9b94'/%3E%3Cstop offset='0.957' stop-color='%23B9B99D'/%3E%3Cstop offset='0.957' stop-color='%23bebeaa'/%3E%3Cstop offset='0.973' stop-color='%23B9B99D'/%3E%3Cstop offset='0.973' stop-color='%23b8b89d'/%3E%3Cstop offset='1' stop-color='%23B9B99D'/%3E%3Cstop offset='1' stop-color='%23cfcfc7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' x='0' y='0' width='100%25' height='100%25'/%3E%3C/svg%3E");
+		size: cover;
+	}
+	font-family: $font;
+	padding: 2rem 0px;
+	/* seccion de nuevos platos */
+	.nuevosPlatos__tittle{
+		font-size: 35px;
+		color: black;
+		padding:{
+			left: 0px;
+			right: 0px;
+			bottom: 2rem;
+		}
+	}
+	.nuevoPlato1-bg, .nuevoPlato2-bg{
+		background-image: url(../assets/img/bg-nuevosplatos.jpg);
+		border: 2px solid black;
+		padding: 0px;
+		margin-bottom: 2rem;
+	}
+	.nuevoPlato1__img{
+		width: 100%;
+		border-right: 2px solid black;
+	}
+	.nuevoPlato2__img{
+		width: 100%;
+		border-left: 2px solid black;	
+	}
+	.nuevoPlato1__tittle, .nuevoPlato2__tittle{
+		font-size: 30px;
+		color: black;
+	}
+	.nuevoPlato1__texto, .nuevoPlato2__texto{
+		font-size: 23px;
+		color: whitesmoke;
+	}
+	/* seccion de ultimos cambios */
+	.ultimosCambios__tittle{
+		font-size: 30px;
+		color: brown;
+		padding-bottom: 1rem;
+	}
+	.carousel{
+		border: 2px solid black;
+		.carousel-inner{
+			width: 100%;
+			height: 650px !important;
+		}
+	}
+	.cambios__img{
+		height: 100%;
+		width: auto;
+	}
+}
