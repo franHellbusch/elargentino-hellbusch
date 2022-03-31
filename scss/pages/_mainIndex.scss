@@ -1,6 +1,8 @@
+body{
+	margin: 0px;
+}
 /* modificaciones del main index */
 .index{
-	overflow-x: hidden;
 	.mainIndex{
 		font-family: $font;
 		background:{
@@ -15,17 +17,23 @@
 			align-content: center;
 			padding: 5rem;
 			.presentacion__img--modificaciones{
-				width: 850px;
+				width: 95%;
 				height: auto;
 				border: 2px solid black;
-				margin: 20px;
+				
+				border-radius: 5px;
 			}
 			.presentacion__texto{
 				font-size: 25px;
-				width: 30%;
-				height: auto;
+				width: 60%;
+				height: 80%;
 				color: whitesmoke;
 				text-align: justify;
+				background-color: brown;
+				border: 1px solid black;
+				padding: 0px 1rem;
+				margin-top: 2rem;
+				border-radius: 5px;
 			}
 		}
 		/* seccion info de local */
@@ -37,16 +45,16 @@
 			padding-bottom: 3rem;
 			.infoDeLocal__tittle{
 				font-size: 45px;
-				color: burlywood;
+				color: white;
 				display: inline;
 			}
 			.infoDeLocal__ubicacion{
-				padding-top: 5rem;
-				width: 350px;
-				height: 275px;
+				padding: 5rem 0px 2rem 0px;
+				width: 25%;
+				height: auto;
 			}
 			.infoDeLocal__video{
-				width: 800px;
+				width: 55%;
 				height: 450px;
 			}
 		}

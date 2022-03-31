@@ -1,43 +1,83 @@
 @media only screen and (max-width: 768px) {
-	body{
-			/* modificaciones del header */
-			.header{
-				.header__logo{
-					width: 75px;
-					border: 1px solid black;
-				}
-				.header__tittle{
-					font-size: 25px;
-					padding:{
-						left: 0.5rem;
-						top: 1rem;
+		// modificaciones del headerI
+		/* modificaciones del header */
+		.headerI{
+			height: 90px;
+			.contenido__nav{
+				.tituloDePagina{
+					.header__logo{
+						width: 75px;
+						border: 1px solid black;
+					}
+					.header__tittle{
+						font-size: 25px;
+						padding:{
+							left: 0.5rem;
+							top: 1rem;
+						}
 					}
 				}
 				.header__nav{
+					margin: 0px;
 					padding: 0px;
-					.navbar{
-						background-color: none;
-						height: auto;
-						margin-top: 0px;
-						font-size: 15px;
-						padding: 5px;
+					position: absolute;
+					.nav__item{
+						padding:{
+							left: 1rem;
+							right: 1rem;
+							top: 5px;
+						}
+						font-size: 16px;
+						.nav__item--modificaciones{
+							color: grey;
+							&:hover{
+							color: black;
+						}
+						}
+					}
+					li{
+						list-style-type: none;
 					}
 				}
 			}
-			/* modificaciones del footer */
-			.footer{
-				padding: 10px 0px;
-				.footer__tittle{
-					font-size: 20px;
-					padding:{
-						left: 10px;
-						top: 10px;
-					}
+		}
+		/* modificaciones del headerII */
+		.header{
+			.header__logo{
+				width: 75px;
+				border: 1px solid black;
+			}
+			.header__tittle{
+				font-size: 25px;
+				padding:{
+					left: 0.5rem;
+					top: 1rem;
 				}
-				.footer__img--modificaciones{
-					width: 40px;
-					margin: 0px 0.5rem;
+			}
+			.header__nav{
+				padding: 0px;
+				.navbar{
+					background-color: none;
+					height: auto;
+					margin-top: 0px;
+					font-size: 15px;
+					padding: 5px;
 				}
+			}
+		}
+		/* modificaciones del footerII */
+		.footer{
+			padding: 10px 0px;
+			.footer__tittle{
+				font-size: 20px;
+				padding:{
+					left: 10px;
+					top: 10px;
+				}
+			}
+			.footer__img--modificaciones{
+				width: 40px;
+				margin: 0px 0.5rem;
 			}
 		}
 		// modificaciones del main index
@@ -58,49 +98,24 @@
 		}
 		/* seccion de presentacion */
 		.presentacion{
-			background-image: url(../assets/img/madera-main.jpg);
-			display: flex;
-			flex-direction: column;
 			padding: 1rem;
-		}
-		.presentacion__img--modificaciones{
-			width: 300px;
-			height: auto;
-			border: 1px solid black;
-			margin-bottom: 10px;
 		}
 		.presentacion__texto{
 			font-size: 15px;
-			width: 90%;
-			height: auto;
-			color: whitesmoke;
-			align-content: justify;
-			display: flex;
 			padding-left: 15px;
 		}
 		/* seccion info de local */
 		.infoDeLocal{
-			background-image: url(../assets/img/madera-main.jpg);
-			display: flex;
-			flex-direction: row;
-			justify-content: space-around;
-			align-content: center;
 			padding-bottom: 1rem;
 		}
 		.infoDeLocal__tittle{
 			font-size: 25px;
-			color: burlywood;
-			display: inline;
 		}
 		.infoDeLocal__ubicacion{
 			padding-top: 2rem;
-			width: 85px;
-			height: 70px;
 		}
 		.infoDeLocal__video{
-			width: 160px;
-			height: 95px;
-			padding-top: 27px;
+			padding-top: 2rem;
 		}
 		/* modificaciones de la seccion de comienzo */
 		.mainNosotros{

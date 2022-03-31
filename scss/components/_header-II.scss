@@ -7,9 +7,10 @@
 	}
 	border-bottom: 2px solid black;
 		.header__tittle{
-			color: brown;
+			color: whitesmoke;
+			font-family: $fontTittle;
 			&:hover{
-				color: white;
+				color: grey;
 			}
 			padding:{
 				left: 1rem;
