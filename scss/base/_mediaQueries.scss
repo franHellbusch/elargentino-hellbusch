@@ -18,9 +18,11 @@
 					}
 				}
 				.header__nav{
+					height: auto;
 					margin: 0px;
 					padding: 0px;
-					position: absolute;
+					flex-direction: column;
+					justify-content: end;
 					.nav__item{
 						padding:{
 							left: 1rem;
@@ -65,6 +67,26 @@
 				}
 			}
 		}
+		// modificaciones del footer I
+		.footerI{
+			padding: 10px 0px;
+			.footer__tittle{
+				font-size: 20px;
+				padding:{
+					left: 10px;
+					top: 10px;
+				}
+			}
+			.footer__img--modificaciones{
+				width: 40px;
+				padding: 0px 0.5rem;
+			}
+		}
+		.copyrightI{
+			display: flex;
+			justify-content: center;
+			background-color: grey;
+		}
 		/* modificaciones del footerII */
 		.footer{
 			padding: 10px 0px;
@@ -82,40 +104,49 @@
 		}
 		// modificaciones del main index
 		.index{
-			display: grid;
-			grid-template-columns: 1fr;
-			grid-template-rows: 70px auto auto 60px;
-			grid-auto-flow: row;
-			grid-auto-columns: 1fr;
-			grid-template-areas: 
-			"header"
-			"presentacion"
-			"infoDeLocal"
-			"footer"
-			;
-			width: 98%;
-			height: 99%;
-		}
-		/* seccion de presentacion */
-		.presentacion{
-			padding: 1rem;
-		}
-		.presentacion__texto{
-			font-size: 15px;
-			padding-left: 15px;
-		}
-		/* seccion info de local */
-		.infoDeLocal{
-			padding-bottom: 1rem;
-		}
-		.infoDeLocal__tittle{
-			font-size: 25px;
-		}
-		.infoDeLocal__ubicacion{
-			padding-top: 2rem;
-		}
-		.infoDeLocal__video{
-			padding-top: 2rem;
+			.mainIndex{
+				/* seccion de presentacion */
+				.presentacion{
+					flex-wrap: wrap;
+					padding: 1rem;
+					justify-content: normal;
+					.presentacion__img--modificaciones{
+						width: 100%;
+					}
+					.presentacion__texto{
+						font-size: 10px;
+						width: 90%;
+						margin-top: 1rem;
+					}
+				}
+				/* seccion info de local */
+				.infoDeLocal{
+					flex-wrap: wrap;
+					justify-content: normal;
+					padding-bottom: 1rem;
+					.infoDeLocal__tittle{
+						font-size: 20px;
+						padding-left: 1rem;
+					}
+					.infoDeLocal__ubicacion{
+						padding-top: 2rem;
+						width: 50%;
+						height: auto;
+						padding:{
+							top: 1rem;
+							left: 4rem;
+						}
+					}
+					.infoDeLocal__video{
+						width: 90%;
+						height: 250px;
+						padding:{
+							top: 1rem;
+							left: 1rem;
+						}
+					}
+				}
+			}
 		}
 		/* modificaciones de la seccion de comienzo */
 		.mainNosotros{
@@ -344,6 +375,10 @@
 				.form__name--modificaciones, .form__apellido--modificaciones{
 					font-size: 15px;
 				}
+			}
+			.form__email{
+				padding-left: 1rem;
+				font-size: 15px
 			}
 			.form__textarea{
 				font-size: 20px;

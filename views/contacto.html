@@ -77,7 +77,7 @@
 			<!-- SECCION DE FORMULARIO -->
 			<section class="col">
 				<form action="#" class="form">
-					<div class="form__name row">Nombre</div>
+					<div class="form__name row">Datos personales:</div>
 					<div class="form__nombreApellido row">
 						<label for="name">
 							<input type="text" name="Nombre" placeholder="Nombre" class="form__name--modificaciones col-lg-10 col-12">	
@@ -86,9 +86,19 @@
 							<input type="text" name="Apellido" placeholder="Apellido" class="form__apellido--modificaciones col-lg-10 col-12">
 						</label>
 					</div>
+					<div class="form__email">
+						<label class="row" for="email">
+							<input type="email" id="" name="email" placeholder="Email" class="col-lg-8 col-11">
+						</label>
+					</div>
 					<div class="form__textarea row">Reservar</div>
+					<div class="form__fecha">
+						<label class="row" for="fecha">
+							<input type="date" name="Fecha" step="1" min="2022-04-11" max="2022-05-01" value="2022-04-11">
+						</label>
+					</div>
 					<div class="form__textarea--modificaciones row">
-						<textarea name="reservar" id="" cols="45" rows="10" ></textarea>
+						<textarea name="reservar" id="" cols="45" rows="8" ></textarea>
 					</div>
 					<div class="form__enviarBorrar row">
 						<input type="submit" value="Enviar" class="form__enviar">
@@ -115,7 +125,7 @@
 						<h4 class="comenta__tittle">Deja tu comentario:</h4>
 					</div>
 					<div class="col-lg-6">
-					<a href="https://goo.gl/maps/JQWyqzpSFECcz3EA7" target="_blank"><img src="../assets/img/googlemap.lnk" alt="googlemap" class="comenta__img"></a>
+					<a href="https://goo.gl/maps/JQWyqzpSFECcz3EA7" target="_blank"><img src="../assets/img/googlemaps.png" alt="googlemap" class="comenta__img"></a>
 					</div>
 				</div>
 			</section>
