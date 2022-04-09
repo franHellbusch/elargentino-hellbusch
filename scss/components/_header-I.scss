@@ -32,9 +32,9 @@ a{
 					family: $fontTittle;
 				}
 				height: auto;
-				color: whitesmoke;
+				color: grey;
 				&:hover{
-					color: grey;
+					color: white;
 				}
 				padding:{
 					left: 1rem;
@@ -43,45 +43,19 @@ a{
 				margin: 0px;
 			}
 		}
-		.nav__checkbox {
-			display: none;
-		}
-		.nav__toggle {
-			position: absolute;
-			cursor: pointer;
-			margin: 01rem;
-			right: 0;
-			svg {
-				width: 1rem;
-				fill: white;
-			}
-			.close {
-				display: none;
-				margin-top: 0.3rem;
-			}
-			.menu{
-				margin-top: 0.3rem;
-			}
-		}
-		#nav__checkbox:checked ~ ul .nav__menu li {
-			display: block;
-		}
-		#nav__checkbox:checked ~ label .nav__toggle .close {
-		  display: block;
-		}
-		#nav__checkbox:checked ~ label .nav__toggle .menu {
-		  display: none;
-		}
 		.header__nav{
-			align-items: center;
-			display: flex;
-			flex-direction: column;
-			gap: 2rem;
-			margin: 1rem;
+			height: 30px;
 			background-color: $colorNavBar;
 			border: 1px solid black;
 			border-radius: 5px;
+			display: flex;
+			flex-direction: row;
+			margin:{
+				right: 1rem;
+				top: 4rem;
+			}
 			padding: 0px;
+			position: relative;
 			.nav__item{
 				padding:{
 					left: 1.5rem;

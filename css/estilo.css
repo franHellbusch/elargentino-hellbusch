@@ -92,43 +92,23 @@ a {
         font-size: 40px;
         font-family: "Merriweather", serif;
         height: auto;
-        color: whitesmoke;
+        color: grey;
         padding-left: 1rem;
         padding-top: 2rem;
         margin: 0px; }
         .headerI .contenido__nav .tituloDePagina .header__tittle:hover {
-          color: grey; }
-    .headerI .contenido__nav .nav__checkbox {
-      display: none; }
-    .headerI .contenido__nav .nav__toggle {
-      position: absolute;
-      cursor: pointer;
-      margin: 01rem;
-      right: 0; }
-      .headerI .contenido__nav .nav__toggle svg {
-        width: 1rem;
-        fill: white; }
-      .headerI .contenido__nav .nav__toggle .close {
-        display: none;
-        margin-top: 0.3rem; }
-      .headerI .contenido__nav .nav__toggle .menu {
-        margin-top: 0.3rem; }
-    .headerI .contenido__nav #nav__checkbox:checked ~ ul .nav__menu li {
-      display: block; }
-    .headerI .contenido__nav #nav__checkbox:checked ~ label .nav__toggle .close {
-      display: block; }
-    .headerI .contenido__nav #nav__checkbox:checked ~ label .nav__toggle .menu {
-      display: none; }
+          color: white; }
     .headerI .contenido__nav .header__nav {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      margin: 1rem;
+      height: 30px;
       background-color: #EB7E09;
       border: 1px solid black;
       border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+      margin-right: 1rem;
+      margin-top: 4rem;
       padding: 0px;
+      position: relative;
       /* The container <div> - needed to position the dropdown content */ }
       .headerI .contenido__nav .header__nav .nav__item {
         padding-left: 1.5rem;
