@@ -31,26 +31,26 @@
 	  <input class="menu-btn" type="checkbox" id="menu-btn" />
 	  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	  <ul class="menu">
-	    <li>
+	    <li class="nav__item-position">
 	        <a class="nav-item" href="index.html">Inicio</a>
 	      </li>
-	      <li>
+	      <li class="nav__item-position">
 	        <a class="nav-item" href="views/nosotros.html">Nosotros</a>
 	      </li>
-	      <div class="dropdown">
-		  <button class="dropbtn nav-item">Menu</button>
-		  <div class="dropdown-content">
-		    	<a class="dropdown-item" href="menu.html#guarniciones">Guarniciones</a>
-	        	<a class="dropdown-item" href="menu.html#pastas">Pastas</a>
-	        	<a class="dropdown-item" href="menu.html#carnes">Carnes</a>
-	        	<a class="dropdown-item" href="menu.html#postres">Postres</a>
-	        	<a class="dropdown-item" href="menu.html#bebidasYTragos">Bebidas y tragos</a>
-		  </div>
-		</div>
-	      <li>
+	      <li class="nav__item-position">
+	      	<a href="#">Menu<span>&#8595;</span></a>
+		      <ul class="dropdown">
+		        <li class="dropdown-item"><a class="dropdown_item-modificaciones" href="views/menu.html#guarniciones">Guarniciones</a></li>
+	        	<li class="dropdown-item"><a class="dropdown_item-modificaciones" href="views/menu.html#pastas">Pastas</a></li>
+	        	<li class="dropdown-item"><a class="dropdown_item-modificaciones" href="views/menu.html#carnes">Carnes</a></li>
+	        	<li class="dropdown-item"><a class="dropdown_item-modificaciones" href="views/menu.html#postres">Postres</a></li>
+	        	<li class="dropdown-item"><a class="dropdown_item-modificaciones" href="views/menu.html#bebidasYTragos">Bebidas y tragos</a></li>
+		      </ul>
+	    	</li>
+	      <li class="nav__item-position">
 	        <a class="nav-item" href="views/novedades.html">Novedades</a>
 	      </li>
-	      <li>
+	      <li class="nav__item-position">
 	        <a class="nav-item" href="views/contacto.html">Contacto</a>
 	      </li>
 	  </ul>
